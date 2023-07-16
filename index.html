@@ -3,15 +3,29 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>RyanRFrisch.com - Using Ruby on Rails to Solve Business Problems</title>
+    <title>Frisch.fyi - Ryan Frisch</title>
     <style>
       body {
         max-width: 1200px;
         margin: 0 auto;
       }
+
+      header a.title h1 {
+        text-align: center;
+      }
+
+      header a.title {
+        text-decoration: none;
+        color: #000;
+      }
+
+      ul#menu {
+        padding-left: 0;
+      }
+
       ul#menu li {
         display:inline;
-        font-size: 2rem;
+        font-size: 1.1rem;
         margin-right: 1rem;
         text-decoration: none;
 
@@ -24,41 +38,204 @@
 
       img#profile {
         border-radius: 50%;
-        width: 50px;
+        width: 200px;
         float: left;
         margin-right: 2rem;
+      }
+
+      section {
+        padding: 2rem 0;
+      }
+
+      section h2 {
+        border-bottom: 1px solid #000;
+      }
+
+      section h3 {
+        padding: 1.5rem 0 0 0;
+        margin-bottom: 0;
+
+      }
+      section#experiences h3 + p {
+        margin-top: 4px;
+
       }
     </style>
   </head>
   <body>
 
     <header>
-      <a href="index.html">
-        <img src="assets/images/ryan-frisch.jpeg" alt="Ryan Frisch" id="profile">
+      <a href="https://www.frisch.fyi" class="title">
+        <h1 >frisch.fyi</h1>
       </a>
 
-      <nav>
-        <ul id="menu">
-          <li><a href="journey.html">The Journey</a></li><!-- Blog with categoies Rails, Locable, Front-end, Back-end, Growth, Business Ideas -->
-          <li><a href="philosophies.html">Philosophies</a></li>
-          <li><a href="snippets.html">Snippets</a></li>
-          <li><a href="tooling.html">Tooling</a></li>
-          <li><a href="resources.html">Resources</a></li><!-- Boring Rails, Code with Jason, GoRails, Drifting Ruby, Book List: BuyBackYourTime, etc. -->
-          <li><a href="contact.html">Contact</a></li><!-- Link to social only? -->
-        </ul>
-      </nav>
-      <hr />
+
+      <section>
+        <img src="assets/images/ryan-frisch.jpeg" alt="Ryan Frisch" id="profile">
+        <!-- Using Ruby on Rails to Solve Business Problems -->
+        <h1> Ryan Frisch</h1>
+        <h4>Partner & CTO at Locable, Rails Full Stack Developer, Avid Hockey Player, New England Native </h4>
+        <p> 
+          I identify as an entrepreneur and love building products and using technology to make people's lives easier/better (see <a href="#locable">Locable</a>).
+          I'm a full stack Ruby on Rails developer during the day and an avid hockey player at night.
+          I'm proud to say I have an Information Technology degree from Rensselaer Polytechnic Institute (RPI) and a MBA from Boston University.
+          These experiences have given me a solid understanding of technology, business strategy, and finance and how to apply those skills to building businesses.
+          I currently live in Hanover, NH.
+        </p>
+
+        <!-- The Journey Philosophies Snippets Tooling Resources Contact -->
+        <!--Blog with categoies Rails, Locable, Front-end, Back-end, Growth, Business Ideas-->
+        <!-- <hr /> -->
+        <nav>
+          <ul id="menu">
+            <li><strong>Learn More:</strong></li>
+            <li><a href="#locable">Locable</a></li> 
+            <li><a href="#origin">Developer Origin Story</a></li>
+            <li><a href="#experiences">Past Experiences</a></li>
+            <!-- <li><a href="#extracurriculars">Extracurriculars</a></li> -->
+            <li><a href="#recommendations">Recommendations</a></li>
+            <li><a href="#connect">Connect</a></li>
+
+          </ul>
+        </nav>
+        <!-- <hr /> -->
+      </section>
+
     </header>
 
+    <section id="locable">
+      <h2>Locable - Jan 2013 - Present</h2>
+      <p><a href="https://www.locable.com">Locable</a> is a Local Marketing Platform that simplifies YOUR efforts and automates Cross-Promotion with organizations you already support and endorse.</p>
 
-    <section>
-      <h1> Ryan R. Frisch - Using Ruby on Rails to Solve Business Problems </h1>
-      <p> <strong>CTO at Locable, Rails Full Stack Developer, Former Sacramento ACES Lacrosse Coach, Avid Hockey Player, New England Native,  </strong></p>
+      <p>
+        I joined Locable in January of 2013 after spending 6 years running the websites of family-owned publications Here in Hanover, Image, and Woodstock Magazine and helping many local businesses with their websites and marketing along the way.
+
+       <p> Having grown up around multiple media businesses in the small college town of Hanover, NH, I saw first-hand the important role local media played in the community, especially as it relates to the general mission of supporting local.</p>
+
+        <p>While I joined Locable slightly after its founding (see <a href="#experiences"> Past Experiences</a>), the core problem of helping small and local businesses be better marketers is one that I grappled with regularly in my day-to-day work.</p>
+
+        <p>Through this experience, I discovered a passion for helping people build more profitable and efficient businesses through the application of technology which I know apply when building Locable.
+      </p>
+    </section>
+    
+    <section id="origin">
+      <h2>Developer Origin Story</h2>
+
+      <p>When I first joined Locable, I did not consider myself a developer by trade. Despite earning an IT degree from <a href="https://www.rpi.edu/" title="Rensselaer Polytechnic Institute" target="_blank">RPI</a>, my development experience was limited to managing WordPress sites and experimenting with custom plugins and <em> trying </em> to teach myself various programming languages. Nevertheless, as an <a href="https://www.bu.edu/" title="Boston University" target="_blank">MBA-educated</a> self-starter, I saw an opportunity to build a business that could make a real impact!</p>
+
+      <p>At some point during the process of working on Locable, I became frustrated with relying on contractors to build our app. We just couldn't move fast enough! So, I dove into Rails to fill that need and fell in love with the framework in the process.</p>
+
+      <!-- <p>Over the course of nearly five years of coding with Rails, I have grown tremendously as a developer but now face new challenges such as how to continue developing this skill when the problems faced are more complex and less talked about as well as how to accelerate my learning, both with programming and business, in order to scale the business. </p> -->
+        
+      <!-- <p>If you are asking similar questions, and want someone to brainstorm with, please reach out to me here.</p> -->
+      
+      <!-- <p>Here are the areas I'm interested in discussing with you:</p>
+
+      <ul>
+        <li>Ruby on Rails, and everything that entails</li>
+        <li>Locable - The challenges we face while developing an all-in-one local marketing platform for small businesses and communities</li>
+        <li>Front-end, maybe</li>
+        <li>Back-end, definitely</li>
+        <li>Growth - How we approach business growth</li>
+        <li>Business ideas - Occasional opportunities that come to mind</li>
+      </ul> -->
+
     </section>
 
-    <section>
-      <p> More coming as time allows. In the meantime, connect with me on <a href="https://www.linkedin.com/in/rfrisch/" target="_blank">LinkedIn</a>. </p>
+    <!-- Jobs and Education -->
+    <section id="experiences">
+      <h2>Past Experiences</h2>
+
+      <h3>Founder & CEO of Row43 Media </h3>
+      <p>Oct 2008 - May 2013</p>
+      <!-- <p> SAAS over services lesson...essentially merged with Locable in 2013</p> -->
+      
+      <h3>Boston University - MBA, Finance</h3>
+      <p>2007 - 2010</p>
+
+      <h3>DDJ Capital Management </h3>
+      <p>Jun 2007 - Dec 2011</p>
+      <!-- <p> Prioritizing hapiness...</p> -->
+      
+      <h3>Investors Bank & Trust</h3>
+      <p>Dec 2005 - Jun 2007</p>
+      <!-- <p> The obligatory first job</p> -->
+      
+      <h3>Ounce Labs, Inc.</h3>
+      <p>Jun 2005 - Oct 2005</p>
+      <!-- <p> My first internship gave me a taste of the start up world. </p> -->
+
+      <h3>Vector Marketing</h3>
+      <p>Jun 2002 - Aug 2002</p>
+      <!-- <p> yes, I sold Cutco at one point...heres what I learned at the time... </p> -->
+
+    
+      <h3>Rensselaer Polytechnic Institute - BS, Information Technology</h3>
+      <p>2001 - 2005</p>
+
     </section>
 
+    <!-- Hockey and ACES -->
+    <!-- <section id="extracurriculars">
+      <h2>Extracurriculars</h2>
+
+      <h3>Hockey </h3>
+      <p> Passion</p>
+
+      <h3>Sacremento ACES </h3>
+      <p>Learning to teach and learn from the best</p>
+    </section> -->
+
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <!--Boring Rails, Code with Jason, GoRails, Drifting Ruby, Book List: BuyBackYourTime, etc.-->
+      <h3> Here are Some Online Resources I Frequently Reference</h3>
+      <ul>
+        <li>Code with Jason</li>
+        <li>GoRails</li>
+        <li>Drifting Ruby</li>
+        <li>Boring Rails</li>
+        <li>Fast Ruby</li>
+      </ul>
+
+      <h3> On The Bookshelf </h3>
+      <ul>
+        <li>Marketing 3-4-5</li>
+        <li>Buy Back Your Time</li>
+        <li>The Sabatical Method</li>
+        <li>Hacking Growth</li>
+        <li>Product Led Growth</li>
+        <li>Sustainable Web Development</li>
+        <li>Refactoring Ruby</li>
+        <li>Design Patterns in Ruby</li>
+        <li>The 1-Page Marketing Plan</li>
+        <li>The Ultimate Sales Machine</li>
+        <li>The Sales Acccelration Forumla</li>
+        <li>Enders Game</li>
+        <li>Ready Player One</li>
+        <li>The Giver</li>
+
+      </ul>
+
+      <!-- <h3> People & Business I Support </h3>
+      <ul>
+        <li>SAAS Academy</li>
+        <li>Mountain View Publishing</li>
+        <li> Sacarmento ACES</li>
+      </ul> -->
+    </section>
+
+    <section id="connect">
+      <h2>Connect</h2>
+      <h3>Websites</h3>
+      <p>Business Card: <a href="https://www.frisch.fyi" target="_blank">https://www.frisch.fyi</a></p>
+      <!-- <p>Portfolio & Blog: <a href="https://www.ryanrfrisch.com" target="_blank">https://www.ryanrfrisch.com</a></p> -->
+      <h3>Social Media</h3>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/rfrisch" target="_blank">https://www.linkedin.com/in/rfrisch</a></p>
+      <p>Twitter: <a href="https://twitter.com/ryanrfrisch" target="_blank">https://twitter.com/ryanrfrisch</a></p>
+      <p>Github: <a href="https://github.com/rfrisch43" target="_blank">https://github.com/rfrisch43</a></p>
+      <!-- <h3>Get in Touch</h3>
+      <p> Form Here</P> -->
+    </section>
   </body>
 </html>
