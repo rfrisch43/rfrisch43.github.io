@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Frisch.fyi - Ryan Frisch</title>
     <style>
+
       body {
         max-width: 1200px;
         margin: 0 auto;
@@ -21,6 +22,7 @@
 
       ul#menu {
         padding-left: 0;
+
       }
 
       ul#menu li {
@@ -28,7 +30,6 @@
         font-size: 1.1rem;
         margin-right: 1rem;
         text-decoration: none;
-
       }
 
       ul#menu li a {
@@ -40,7 +41,7 @@
         border-radius: 50%;
         width: 200px;
         float: left;
-        margin-right: 2rem;
+        margin: 0 2rem 1rem 0;
       }
 
       section {
@@ -60,6 +61,30 @@
         margin-top: 4px;
 
       }
+
+      @media only screen and (max-width: 1200px) {
+        body {
+          max-width: 100%;
+          padding: 0 1rem;
+        }
+       
+      }
+
+      @media only screen and (max-width: 600px) {
+
+        img#profile {
+          border-radius: 50%;
+          width: 100%;
+          float: none;
+        }
+
+        ul#menu li a {
+          text-decoration: underline;
+          color: #000;
+        }
+       
+      }
+
     </style>
   </head>
   <body>
